@@ -1,1 +1,1 @@
-var playlist = {The Chainsmokers: "Call You Mine"};
+var playlist = new Object({ The Chainsmokers: 'Call You Mine' })
