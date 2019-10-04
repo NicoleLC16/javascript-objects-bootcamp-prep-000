@@ -2,7 +2,7 @@ var playlist = { Chainsmokers: 'Call You Mine' };
 
 function updatePlaylist (playlist, artistName, songTitle) {
   
-  Object.assign (playlist, { [artistName]: songTitle});
+  Object.assign (playlist, { [Beyonce]: "Halo"});
   
   return playlist;
 }
