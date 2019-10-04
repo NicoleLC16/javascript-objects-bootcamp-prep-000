@@ -1,4 +1,4 @@
-var playlist = { artistName: 'SongTitle' };
+var playlist = { Chainsmokers: 'SongTitle' };
 
 function updatePlaylist (playlist, artistName, songTitle) {
   
@@ -9,7 +9,7 @@ function updatePlaylist (playlist, artistName, songTitle) {
 
 
 function removeFromPlaylist (playlist, artistName, songTitle) {
-  delete playlist.[artistName];
+  delete playlist.Chainsmokers;
   return playlist;
   
 }
